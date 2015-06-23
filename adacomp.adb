@@ -3,6 +3,7 @@ with Ada.Integer_Text_IO;       use Ada.Integer_Text_IO;
 with Ada.IO_Exceptions;
 
 with Command;                   use Command;
+with Computer;
 
 procedure AdaComp is
     function Read_Int return Natural is
